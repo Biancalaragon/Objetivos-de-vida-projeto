@@ -46,7 +46,7 @@ body {
 .botoes {@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans+JP:wght@100..900&display=swap');
     --verde: #52774b;
     --branco: #2D3250;
-    --botao-ativo: #262258;
+    --botao-ativo: #F7EEDD;
     --botao-inativo: rgba(58, 55, 94 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -95,3 +95,7 @@ body {
 .botao:first-child {border-radius: 40px 0 0 0;
 }
 .botao:last-child{border-radius: 0 40px 0 0;}
+.ativo {
+    background-color: var(--botao-ativo);
+    border-radius: 4px solid var(--verde);
+}
