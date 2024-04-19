@@ -2,9 +2,9 @@
     --cor-de-fundo: #AAD7D9;
     --verde: #52774b;
     --branco: #2D3250;
-    --botao-ativo: #262258;
+    --botao-ativo: #9fd3c8;
     --botao-inativo: rgba(58, 55, 94 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --texto-fundo: rgb(159, 211, 200);
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -45,10 +45,10 @@ body {
 }
 .botoes {@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
     --verde: #52774b;
-    --branco: #2D3250;
+    --branco: #000000;
     --botao-ativo: #F7EEDD;
     --botao-inativo: rgba(58, 55, 94 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --texto-fundo: rgb(255, 255, 255);
 }
 body {
     background-color: var(--cor-de-fundo);
